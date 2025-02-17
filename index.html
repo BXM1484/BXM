@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilasi Ram Mohanlal Jagetiya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bilasi Ram Mohanlal Jagetiya</h1>
+    </header>
+    <div class="products" id="products"></div>
+    <div id="checkout" class="hidden">
+        <h2>Checkout</h2>
+        <img id="product-image" src="" alt="Product Image">
+        <p id="product-name"></p>
+        <p id="product-price"></p>
+        <input type="number" id="quantity" min="1" value="1">
+        <input type="text" id="address" placeholder="Enter Your Address">
+        <input type="text" id="mobile" placeholder="Enter Your Mobile Number">
+        <button onclick="confirmOrder()">Confirm Order</button>
+    </div>
+    <footer>
+        <h3>Scan to Pay</h3>
+        <img src="https://imgur.com/sDGMDAe.jpg" alt="QR Code" class="qr-code">
+        <p>Mobile Payment: 7568094525</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
